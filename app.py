@@ -11,7 +11,6 @@ import tempfile
 import gradio as gr
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
 from youtube_transcript_api.formatters import TextFormatter
-from pytube import YouTube
 import whisper
 from transformers import pipeline
 
