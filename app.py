@@ -206,4 +206,5 @@ demo = gr.Interface(
     description="Summarizes any YouTube video using transcripts or speech-to-text with Whisper 🎧🤖"
 )
 
-demo.launch()
+demo.launch(server_name="0.0.0.0", server_port=8080)
+
